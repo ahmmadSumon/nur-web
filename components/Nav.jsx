@@ -1,10 +1,8 @@
 "use client";
 import { useState } from 'react';
 import Link from 'next/link';
-import { FiShoppingCart } from 'react-icons/fi';
-import { BsFillTelephoneFill } from 'react-icons/bs';
 import { AiOutlineClose , AiOutlineDown } from 'react-icons/ai'; // Import the close icon
-import Image from 'next/image';
+
 import DropDown from './dropdown/DropDown';
 
 export default function Nav() {
