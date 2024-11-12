@@ -38,7 +38,7 @@ export default function Nav() {
   return (
     <nav className="bg-white shadow-md fixed top-0 w-full z-50">
       <div className="max-w-6xl mx-auto px-4  sm:px-6">
-        <div className="flex justify-between h-[120px] items-center">
+        <div className="flex justify-between h-[80px] md:h-[120px] items-center">
           <div className="flex-shrink-0 flex items-center">
             <Link href="/">
               <div className="text-2xl font-bold text-gray-800 cursor-pointer">

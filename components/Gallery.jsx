@@ -4,7 +4,7 @@ import { LayoutGridDemo } from './LayoutGridDemo'
 const Gallery = () => {
   return (
     <div>
-      <h1 className='text-center text-6xl py-20 font-bold'>Our <span className='text-[#090E73]' >Galleries</span> </h1>
+      <h1 className='text-center text-6xl py-20 font-bold'>Latest <span className='text-[#090E73]' >Galleries</span> </h1>
       <div>
         <LayoutGridDemo/>
       </div>
