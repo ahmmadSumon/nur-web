@@ -21,6 +21,7 @@ export default function Nav() {
     {
       placeholder: "About Us",
       data: [
+        { name: "About Us", link: "/about-us" },
         { name: "OUR TEAM", link: "/about" },
         { name: "BOARDS", link: "/boards" },
         { name: "STUFF", link: "/stuff" },
@@ -30,7 +31,7 @@ export default function Nav() {
     {
       placeholder: "Media",
       data: [
-        { name: "GALLERY", link: "/taxdebt" },
+        { name: "GALLERY", link: "/gallery" },
       ]
     }
   ];
@@ -48,25 +49,27 @@ export default function Nav() {
           </div>
           
           <div className="hidden md:flex md:items-center md:space-x-5 flex-grow justify-center">
-          <Link href="/home">
+          <Link href="/">
               <div className="text-gray-800 hover:text-green-500 text-[18px]  px-3 py-2 rounded-md cursor-pointer transition duration-300">Home</div>
             </Link>
             <DropDown 
+            
                placeholder="About Us" 
               data={[
-                { name: "OUR TEAM", link: "/about" },
+                { name: "About Us", link: "/about-us" },
+                { name: "OUR TEAM", link: "/team" },
                 { name: "BOARDS", link: "/boards" },
                 { name: "STUFF", link: "/stuff" },
                 
               ]}
             />
-            <Link href="/faqsection">
+            <Link href="/programs">
               <div className="text-gray-800 text-[18px] hover:text-green-500  px-3 py-2 rounded-md cursor-pointer transition duration-300">Programs</div>
             </Link>
             <DropDown 
                   placeholder="Media" 
               data={[
-                { name: "GALLERY", link: "/taxdebt" },
+                { name: "GALLERY", link: "/gallery" },
                 
               ]}
             />
@@ -130,10 +133,10 @@ export default function Nav() {
         ))}
       </div>
 
-      <Link href="/faqsection">
+      <Link href="/programs">
         <div className="text-gray-800 hover:bg-gray-200 hover:shadow-md px-3 py-2 rounded-md cursor-pointer transition duration-300">Programs</div>
       </Link>
-      <Link href="/aboutsection">
+      <Link href="/reports">
         <div className="text-gray-800 hover:bg-gray-200 hover:shadow-md px-3 py-2 rounded-md cursor-pointer transition duration-300">Reports</div>
       </Link>
 

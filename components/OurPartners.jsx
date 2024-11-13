@@ -14,7 +14,7 @@ const OurPartners = () => {
   return (
     <section className="bg-gray-50 py-12">
       <div className="container mx-auto px-6">
-        <h1 className="text-center text-6xl py-20 font-bold">
+        <h1 className="text-center text-4xl md:text-6xl py-20 font-bold">
           Our <span className="text-[#090E73]">Partners</span>
         </h1>
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-8 items-center">

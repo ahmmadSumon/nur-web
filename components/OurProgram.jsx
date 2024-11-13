@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 
 const OurProgram = () => {
@@ -9,9 +10,11 @@ const OurProgram = () => {
             Our <span className="text-[#090E73]">Program</span>
           </h1>
           <p className="text-lg sm:text-xl py-5 max-w-xl mx-auto md:mx-0">BES Does a number of programs including:</p>
+          <Link href="/programs">
           <button className="bg-transparent hover:bg-[#090E73] px-8 md:px-10 py-3 md:py-4 my-8 rounded-full text-black hover:text-white border-[2px] border-[#090E73] font-semibold transition duration-300 ease-in-out">
             Explore All Programs
           </button>
+          </Link>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-4 md:gap-6 lg:gap-8">
           <div className="p-4 flex justify-center items-center text-center text-xl h-[120px] w-[200px] bg-[#EFF8EC] shadow rounded-lg">
